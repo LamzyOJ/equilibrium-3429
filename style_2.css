@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 14px;
+    align-items: flex-start;
+    width: 300px;
+    border-radius: 10px;
+    gap: 12px;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    /* font-size: 23px; */
+    
+}
+
+h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.erf {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.top {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-repeat: 10px;
+    position: absolute;
+    align-items: center;
+    justify-content: center
+}
+
+.top:hover .view {
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.item1 {
+    color: hsl(215, 51%, 70%);
+    width: 100%;
+    /* font-size: 16px; */
+}
+
+.item2 {
+    color: hsl(178, 100%, 50%);
+    font-weight: bolder;
+}
+
+.item3 {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    gap: 6px;
+}
+
+.nope {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 36px;
+}
+
+
+.yes {
+    width: 11px;
+    height: 18px;
+}
+
+.itemethereum {
+    display: flex;
+    gap: 7px;
+}
+
+.best {
+    width: 17px;
+    height: 17px;
+}
+
+.king {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    align-items: center;
+    gap: 16px;
+    border-top: 1px inset hsl(215, 51%, 70%);
+}
+
+.Jules {
+    width: 30px;
+    height: 34px;  
+}
+
+.rest {
+    gap: 2px;
+    color:hsl(215, 51%, 70%);
+    /* font-size: 12px; */
+}
+
+span {
+    color: #fff; 
+}
+
+span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
